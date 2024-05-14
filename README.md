@@ -22,66 +22,67 @@ If the destination matches, the computer copies the message into its buffer, set
 After the token is set free, any computer in the network can grab it, initiating the next transmission cycle.
 
 Example Simulation Output (Step-by-Step Display):
-C0(155.109.13.108) -> null
-C1(151.91.11.141) -> null
-C2(68.151.34.159) -> null
-C3(116.138.160.38) -> null
-C4(117.195.33.55) -> null
-C5(192.111.251.134) -> null
-C6(2.2.152.150) -> null
-C7(25.114.37.167) -> null
-C8(177.179.25.15) -> null
-C9(75.196.178.105) -> null
-Source: C4 Destination: C9
-C4: Move token
-C5: Move token
-C6: Move token
-C7: Move token
-C8: Move token
-C9: Arrived at destination
-C9: Move token
-C0: Move token
-C1: Move token
-C2: Move token
-C3: Move token
-C4: Arrived back
-C0(155.109.13.108) -> null
-C1(151.91.11.141) -> null
-C2(68.151.34.159) -> null
-C3(116.138.160.38) -> null
-C4(117.195.33.55) -> null
-C5(192.111.251.134) -> null
-C6(2.2.152.150) -> null
-C7(25.114.37.167) -> null
-C8(177.179.25.15) -> null
-C9(75.196.178.105) -> null;test message
-Source: C0 Destination: C5
-C4: Move token
-C5: Move token
-C6: Move token
-C7: Move token
-C8: Move token
-C9: Move token
-C0: Token grabbed
-C0: Move token
-C1: Move token
-C2: Move token
-C3: Move token
-C4: Move token
-C5: Arrived at destination
-C5: Move token
-C6: Move token
-C7: Move token
-C8: Move token
-C9: Move token
-C0: Arrived back
-C0(155.109.13.108) -> null
-C1(151.91.11.141) -> null
-C2(68.151.34.159) -> null
-C3(116.138.160.38) -> null
-C4(117.195.33.55) -> null
-C5(192.111.251.134) -> null;test message
-C6(2.2.152.150) -> null
+
+#C0(155.109.13.108) -> null
+#C1(151.91.11.141) -> null
+#C2(68.151.34.159) -> null
+#C3(116.138.160.38) -> null
+#C4(117.195.33.55) -> null
+#C5(192.111.251.134) -> null
+#C6(2.2.152.150) -> null
+#C7(25.114.37.167) -> null
+#C8(177.179.25.15) -> null
+#C9(75.196.178.105) -> null
+#Source: C4 Destination: C9
+#C4: Move token
+#C5: Move token
+#C6: Move token
+#C7: Move token
+#C8: Move token
+#C9: Arrived at destination
+#C9: Move token
+#C0: Move token
+#C1: Move token
+#C2: Move token
+#C3: Move token
+#C4: Arrived back
+#C0(155.109.13.108) -> null
+#C1(151.91.11.141) -> null
+#C2(68.151.34.159) -> null
+#C3(116.138.160.38) -> null
+#C4(117.195.33.55) -> null
+#C5(192.111.251.134) -> null
+#C6(2.2.152.150) -> null
+#C7(25.114.37.167) -> null
+#C8(177.179.25.15) -> null
+#C9(75.196.178.105) -> null;test message
+#Source: C0 Destination: C5
+#C4: Move token
+#C5: Move token
+#C6: Move token
+#C7: Move token
+#C8: Move token
+#C9: Move token
+#C0: Token grabbed
+#C0: Move token
+#C1: Move token
+#C2: Move token
+#C3: Move token
+#C4: Move token
+#C5: Arrived at destination
+#C5: Move token
+#C6: Move token
+#C7: Move token
+#C8: Move token
+#C9: Move token
+#C0: Arrived back
+#C0(155.109.13.108) -> null
+#C1(151.91.11.141) -> null
+#C2(68.151.34.159) -> null
+#C3(116.138.160.38) -> null
+#C4(117.195.33.55) -> null
+#C5(192.111.251.134) -> null;test message
+#C6(2.2.152.150) -> null
 C7(25.114.37.167) -> null
 C8(177.179.25.15) -> null
 C9(75.196.178.105) -> null;test message
